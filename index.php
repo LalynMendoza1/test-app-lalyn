@@ -17,10 +17,6 @@
    var hoValue = '';
    var ppValue = '';
 
-      Genesys("command", "Database.set", { messaging: { customAttributes: { 
-         Home_Office_Indicator: hoValue,
-         Protected_Policy: ppValue  
-      }}});
 
    ho.addEventListener('change', (event) => {
       hoValue = ho.checked;
@@ -52,6 +48,9 @@
       deploymentId: '8a249d75-28a2-4c9b-b779-cd2943371db1'
    });
 
-
+      Genesys("command", "Database.set", { messaging: { customAttributes: { 
+         Home_Office_Indicator: hoValue,
+         Protected_Policy: ppValue  
+      }}});
    
 </script>
