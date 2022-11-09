@@ -17,6 +17,10 @@
    var hoValue = '';
    var ppValue = '';
 
+      Genesys("command", "Database.set", { messaging: { customAttributes: { 
+         Home_Office_Indicator: hoValue,
+         Protected_Policy: ppValue  
+      }}});
 
    ho.addEventListener('change', (event) => {
       hoValue = ho.checked;
