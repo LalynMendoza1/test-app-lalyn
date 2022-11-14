@@ -49,8 +49,8 @@
    });
 
       Genesys("command", "Database.set", { messaging: { customAttributes: { 
-         Home_Office_Indicator: hoValue,
-         Protected_Policy: ppValue  
+         Home_Office_Indicator: ho.checked,
+         Protected_Policy: pp.checked  
       }}});
    
 </script>
