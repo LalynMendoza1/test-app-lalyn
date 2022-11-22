@@ -23,7 +23,7 @@
       Genesys("command", "Database.set", { messaging: { customAttributes: { 
          Home_Office_Indicator: hoValue,
          Protected_Policy: ppValue,
-		 Case_ID: ""
+		 Case_ID: 'New Case'
       }}});
    });
 
@@ -32,7 +32,7 @@
       Genesys("command", "Database.set", { messaging: { customAttributes: { 
          Home_Office_Indicator: hoValue,
          Protected_Policy: ppValue,
-		 Case_ID: ""		 
+		 Case_ID: 'New Case'		 
       }}});
    });
 
@@ -53,7 +53,7 @@
       Genesys("command", "Database.set", { messaging: { customAttributes: { 
          Home_Office_Indicator: ho.checked,
          Protected_Policy: pp.checked,
-		 Case_ID: ""
+		 Case_ID: 'New Case'
       }}});
    
 </script>
