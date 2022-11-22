@@ -22,7 +22,8 @@
       hoValue = ho.checked;
       Genesys("command", "Database.set", { messaging: { customAttributes: { 
          Home_Office_Indicator: hoValue,
-         Protected_Policy: ppValue  
+         Protected_Policy: ppValue,
+		 Case_ID: ""
       }}});
    });
 
@@ -30,7 +31,8 @@
       ppValue = pp.checked;
       Genesys("command", "Database.set", { messaging: { customAttributes: { 
          Home_Office_Indicator: hoValue,
-         Protected_Policy: ppValue  
+         Protected_Policy: ppValue,
+		 Case_ID: ""		 
       }}});
    });
 
@@ -50,7 +52,8 @@
 
       Genesys("command", "Database.set", { messaging: { customAttributes: { 
          Home_Office_Indicator: ho.checked,
-         Protected_Policy: pp.checked  
+         Protected_Policy: pp.checked,
+		 Case_ID: ""
       }}});
    
 </script>
