@@ -2,17 +2,16 @@
 
    <body>
 
-<p><b>MEMBER INFORMATION FORM</b></p>
+<p><b>MEMBER PROFILE FORM</b></p>
    <b>Member ID:</b> <input type="text" id="personID">
    <br>
-   <b>Full Name : </b> <input type="text" id="name">
+   <b>Member Name:</b> <input type="text" id="name">
    <br>
    <br>
-   <b>Select your policy:</b>
    <br>
-   <b>Home Office:</b> <input type="checkbox" id="ho">
+   <b>Home Office Indicator:</b> <input type="checkbox" id="ho">
    <br>
-   <b>Protected :</b> <input type="checkbox" id="pp">
+   <b>Protected Policy:</b> <input type="checkbox" id="pp">
    <br>
    <br>
    <button onclick="myFunction()"><b>SUBMIT</b></button>
