@@ -11,7 +11,7 @@
    <br>
    <b>Home Office Indicator:</b> <input type="checkbox" id="ho">
    <br>
-   <b>Protected Policy:</b> <input type="checkbox" id="pp">
+   <b>Protected Policy: </b> <input type="checkbox" id="pp">
    <br>
    <br>
    <button onclick="myFunction()"><b>SUBMIT</b></button>
